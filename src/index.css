@@ -1,13 +1,41 @@
+@font-face {
+  font-family: Karantina;
+  src: url('../public/fonts/Karantina-Regular.ttf');
+}
+
+@font-face {
+  font-family: KarantinaBold;
+  src: url('../public/fonts/Karantina-Bold.ttf');
+}
+
+@font-face {
+  font-family: KarantinaLight;
+  src: url('../public/fonts/Karantina-Light.ttf');
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Karantina, KarantinaBold, KarantinaLight, 
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #3D3D3D;
+  color: white;
+  letter-spacing: 0.2em;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-family: KarantinaBold;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
