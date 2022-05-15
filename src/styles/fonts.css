@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Karantina;
+  src: url('../../public/fonts/Karantina-Regular.ttf');
+}
+
+@font-face {
+  font-family: KarantinaBold;
+  src: url('../../public/fonts/Karantina-Bold.ttf');
+}
+
+@font-face {
+  font-family: KarantinaLight;
+  src: url('../../public/fonts/Karantina-Light.ttf');
+}

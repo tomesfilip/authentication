@@ -1,0 +1,34 @@
+.auth-wrapper {
+  background-color: #575757;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: .8rem;
+  width: 30%;
+  margin: 1rem auto;
+}
+
+.sign-button {
+  display: flex;
+  vertical-align: middle;
+  background-color: #E0FFF6;
+  font-family: Karantina;
+  color: black;
+  border-radius: .8rem;
+  padding: .8rem 1rem;
+  box-shadow: 5px 5px 0px 4px #000000;
+  font-size: 42px;
+  margin: 1rem auto;
+  width: 80%;
+  max-width: 420px;
+}
+
+@media screen and (max-width: 768px) {
+  .auth-wrapper {
+    width: 60%;
+  }
+  .sign-button {
+    width: 100%;
+    font-size: 36px;
+  }
+}
